@@ -1,14 +1,13 @@
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
-import './api/hello';
-import { menu, order, about } from './api/hello';
-const HomePage = () => {
+
+import { useRouter } from 'next/router'
+
+const menu = () => {
   const [darkTheme, setDarkTheme] = useState(undefined);
 
   const handleToggle = (event) => {
     setDarkTheme(event.target.checked);
   };
-
   useEffect(() => {
     if (darkTheme !== undefined) {
       if (darkTheme) {
@@ -32,12 +31,14 @@ const HomePage = () => {
     setDarkTheme(initialColorValue === 'dark');
   }, []);
 
-  return (
-    <>
-      <div className="container">
-        <nav>
-          <div className="mybrand">一輪</div>
-          <div>
+  const router = useRouter()
+  const { pid } = router.query
+
+  return  <>
+  <div className="container">
+    <nav>
+      <div className="mybrand">一輪</div>
+      <div>
             {darkTheme !== undefined && (
               <form action="#">
                 <label className="switch">
@@ -51,32 +52,21 @@ const HomePage = () => {
               </form>
             )}
           </div>
-        </nav>
-        <section>
-          <div className="heroSection">
-            <h1>Ichirin 一輪</h1>
-            <h3>
-              Ramen
-            </h3>
-            <p>
-              Take a look at our menu and submit an order
-
-                {/* <a href="https://twitter.com/ishan02016" target="_blank">
-                  menu
-                </a> */}
-            </p>
-            <span>
-            <button className="primary-btn" onClick={menu}>Menu</button>
-             <button className="primary-btn" onClick={order}>Order</button>
-             <button className="primary-btn" onClick={about}>About</button>
-            </span>
-           
-
-          </div>
-        </section>
+    </nav>
+    <section>
+      <div className="heroSection">
+        <h1>Menu 一輪</h1>
+        <p>
+          Take a look at our menu and submit an order
+        </p>
+        <span>
+         <button className="primary-btn">Order</button>
+        </span>
       </div>
-    </>
-  );
-};
+    </section>
+  </div>
+</>
+}
 
-export default HomePage;
+
+export default menu;
