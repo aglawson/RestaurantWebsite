@@ -2,7 +2,8 @@
 
 /* declaring the css variables colors */
 :root {
-  /* background-image: url('../assets/wood.png'); */
+  background-image: url('../assets/bg.png');
+  background-size: 25%;
   --color-primary-accent: #2614c7;
   --color-primary: #000;
   --color-button: #3d486c;
@@ -32,6 +33,8 @@ body {
   color: var(--color-primary);
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
+  margin-right: 300px;
+  margin-left: 300px;
 }
 
 h1,
@@ -128,7 +131,6 @@ section .heroSection {
   
   /* background-size: 50%; */
   /* opacity: 90%; */
-  padding-left: 5%;
   display: flex;
   margin-top: 2%;
   border-width: 2px;
@@ -142,6 +144,7 @@ section .heroSection {
   /* height: 100vh;
   width: 100ch;
   margin-left: -15%; */
+  
 }
 
 .heroSection > h1 {
@@ -176,9 +179,130 @@ section .heroSection {
   font-size: 17px;
 }
 
+.menu-img {
+  justify-content: space-between;
+
+}
+
+.about-img {
+  justify-content: space-between;
+
+}
+
+.about-btn {
+  cursor: pointer;
+  justify-content: space-between;
+  /* text-align: center; */
+  /* margin-top: 30px; */
+  /* margin-right: 50px; */
+  /* margin-left: -500px; */
+  background-image: url('../assets/logo.png');
+  background-size: 100%;
+  /* background-position-x: center;
+  background-position-y: center; */
+  border-radius: 5px;
+  padding: 15px 30px;
+  height: 250px;
+  width: 250px;
+  font-weight: bold;
+  font-size: 35px;
+  /* margin-left: -400px; */
+  margin-top: 10px;
+  margin-bottom: 10px;  
+}
+
+.about-btn:hover {
+  background-image: url('../assets/logo.png');
+
+  cursor: pointer;
+  justify-content: space-between;
+  /* text-align: center; */
+  /* margin-top: 30px; */
+  /* margin-right: 50px; */
+  /* margin-left: -500px; */
+  background-size: 100%;
+  /* background-position-x: center;
+  background-position-y: center; */
+  border-radius: 5px;
+  padding: 15px 30px;
+  height: 250px;
+  width: 250px;
+  font-weight: bold;
+  font-size: 40px;
+  /* margin-left: -400px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about-txt {
+  background-color: rgb(255, 255, 255);
+  width: 115px;
+  margin-left: 20%;
+  border-radius: 5px;
+  opacity: 60%;
+}
+.order-btn {
+  cursor: pointer;
+  justify-content: space-between;
+  /* text-align: center; */
+  /* margin-top: 30px; */
+  /* margin-right: 15px; */
+  /* margin-left: 15px; */
+  background-image: url('../assets/logo.png');
+  background-size: 100%;
+  /* background-position-x: center;
+  background-position-y: center; */
+  border-radius: 5px;
+  padding: 15px 30px;
+  height: 250px;
+  width: 250px;
+  font-weight: bold;
+  font-size: 35px;
+  /* margin-left: -400px; */
+  margin-top: 10px;
+  margin-bottom: 10px;  
+}
+
+.order-btn:hover {
+  background-image: url('../assets/logo.png');
+
+  cursor: pointer;
+  justify-content: space-between;
+  /* text-align: center; */
+  /* margin-top: 30px; */
+  /* margin-right: 50px; */
+  /* margin-left: -500px; */
+  background-size: 100%;
+  /* background-position-x: center;
+  background-position-y: center; */
+  border-radius: 5px;
+  padding: 15px 30px;
+  height: 250px;
+  width: 250px;
+  font-weight: bold;
+  font-size: 40px;
+  /* margin-left: -400px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.order-txt {
+  background-color: rgb(255, 255, 255);
+  width: 115px;
+  margin-left: 20%;
+  border-radius: 5px;
+  opacity: 60%;
+}
+
+.order-img {
+  justify-content:  space-between;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
 .menu-btn {
   cursor: pointer;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   /* text-align: center; */
   /* margin-top: 30px; */
   /* margin-right: 50px; */
@@ -193,7 +317,7 @@ section .heroSection {
   width: 250px;
   font-weight: bold;
   font-size: 35px;
-  margin-left: -400px;
+  /* margin-left: -45px; */
   margin-top: 10px;
   margin-bottom: 10px;  
 }
@@ -201,7 +325,7 @@ section .heroSection {
   background-image: url('../assets/blurr.JPG');
 
   cursor: pointer;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   /* text-align: center; */
   /* margin-top: 30px; */
   /* margin-right: 50px; */
@@ -215,17 +339,17 @@ section .heroSection {
   width: 250px;
   font-weight: bold;
   font-size: 40px;
-  margin-left: -400px;
+  /* margin-left: -45px; */
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .menu-txt {
-  background-color: #ccc;
-  width: 110px;
+  background-color: rgb(255, 255, 255);
+  width: 115px;
   margin-left: 20%;
   border-radius: 5px;
-
+  opacity: 60%;
 }
 a {
   color: var(--color-anchor);

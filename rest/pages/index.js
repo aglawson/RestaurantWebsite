@@ -75,8 +75,8 @@ const HomePage = () => {
             </p> */}
             <span>
             <a className='menu-img' href='https://ipfs.moralis.io:2053/ipfs/QmXMpVJwccMfwYyrCS7XxeTZgCTussVgn2BNLfGGGS5Y1h' target={'_blank'}><button className="menu-btn"><p className='menu-txt'>Menu</p></button></a>
-             {/* <a href='#order'><button className="primary-btn"></button></a>
-             <a href='#about'><button className="primary-btn"></button></a> */}
+             <a className='order-img' href=''><button className="order-btn"><div className='order-txt'>Order</div></button></a>
+             <a className='about-img' href=''><button className="about-btn"><div className='about-txt'>About</div></button></a>
             </span>
           </div>
 
