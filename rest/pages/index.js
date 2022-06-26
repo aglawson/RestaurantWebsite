@@ -48,7 +48,7 @@ const HomePage = () => {
       </a>
     </div> */}
         <nav>
-          <div className="mybrand">一輪</div>
+          <div className="mybrand">Ichirin 一輪</div>
           <div>
             {darkTheme !== undefined && (
               <form action="#">
@@ -66,113 +66,38 @@ const HomePage = () => {
         </nav>
         <section>
           <div className="heroSection">
-            <h1>Ichirin 一輪</h1>
-            <h3>
+            {/* <h1>Ichirin 一輪</h1> */}
+            {/* <h3>
               Bento Boxes
             </h3>
             <p>
               Take a look at our menu and submit an order
-
-                {/* <a href="https://twitter.com/ishan02016" target="_blank">
-                  menu
-                </a> */}
-            </p>
+            </p> */}
             <span>
-            <a href='#menu'><button className="primary-btn">Menu</button></a>
-             <a href='#order'><button className="primary-btn">Order</button></a>
-             <a href='#about'><button className="primary-btn">About</button></a>
+            <a className='menu-img' href='https://ipfs.moralis.io:2053/ipfs/QmXMpVJwccMfwYyrCS7XxeTZgCTussVgn2BNLfGGGS5Y1h' target={'_blank'}><button className="menu-btn"><p className='menu-txt'>Menu</p></button></a>
+             {/* <a href='#order'><button className="primary-btn"></button></a>
+             <a href='#about'><button className="primary-btn"></button></a> */}
             </span>
           </div>
 
           <div className='container' id='about'>
-              <h2>
+              {/* <h2>
                 About
               </h2>
-              This is the About section of the website. This section tells the story of Ichirin and Chef Yosuke.               This is the About section of the website. This section tells the story of Ichirin and Chef Yosuke. 
-              This is the About section of the website. This section tells the story of Ichirin and Chef Yosuke. 
-              This is the About section of the website. This section tells the story of Ichirin and Chef Yosuke. 
-              This is the About section of the website. This section tells the story of Ichirin and Chef Yosuke. 
-              This is the About section of the website. This section tells the story of Ichirin and Chef Yosuke. 
-              This is the About section of the website. This section tells the story of Ichirin and Chef Yosuke. 
-              This is the About section of the website. This section tells the story of Ichirin and Chef Yosuke. 
-              This is the About section of the website. This section tells the story of Ichirin and Chef Yosuke. 
-              This is the About section of the website. This section tells the story of Ichirin and Chef Yosuke. 
-              This is the About section of the website. This section tells the story of Ichirin and Chef Yosuke. 
-              This is the About section of the website. This section tells the story of Ichirin and Chef Yosuke. 
-              This is the About section of the website. This section tells the story of Ichirin and Chef Yosuke. 
-              This is the About section of the website. This section tells the story of Ichirin and Chef Yosuke. 
-              This is the About section of the website. This section tells the story of Ichirin and Chef Yosuke. 
-              This is the About section of the website. This section tells the story of Ichirin and Chef Yosuke. 
-              This is the About section of the website. This section tells the story of Ichirin and Chef Yosuke. 
-              This is the About section of the website. This section tells the story of Ichirin and Chef Yosuke. 
-              This is the About section of the website. This section tells the story of Ichirin and Chef Yosuke. 
-              This is the About section of the website. This section tells the story of Ichirin and Chef Yosuke. 
-
+              
           </div>
 
-          <div className='container' id='menu'>
+          <div className='menu' id='menu'>
               <h2>
                 Menu
               </h2>
-              This is the Menu section of the website. This section details the food Ichirin offers. 
-              This is the Menu section of the website. This section details the food Ichirin offers. 
-              This is the Menu section of the website. This section details the food Ichirin offers. 
-              This is the Menu section of the website. This section details the food Ichirin offers. 
-              This is the Menu section of the website. This section details the food Ichirin offers. 
-              This is the Menu section of the website. This section details the food Ichirin offers. 
-              This is the Menu section of the website. This section details the food Ichirin offers. 
-              This is the Menu section of the website. This section details the food Ichirin offers. 
-              This is the Menu section of the website. This section details the food Ichirin offers. 
-              This is the Menu section of the website. This section details the food Ichirin offers. 
-              This is the Menu section of the website. This section details the food Ichirin offers. 
-              This is the Menu section of the website. This section details the food Ichirin offers. 
-              This is the Menu section of the website. This section details the food Ichirin offers. 
-              This is the Menu section of the website. This section details the food Ichirin offers. 
-              This is the Menu section of the website. This section details the food Ichirin offers. 
-              This is the Menu section of the website. This section details the food Ichirin offers. 
-              This is the Menu section of the website. This section details the food Ichirin offers. 
-              This is the Menu section of the website. This section details the food Ichirin offers. 
-              This is the Menu section of the website. This section details the food Ichirin offers. 
           </div>
 
           <div className='container' id='order'>
               <h2>
                 Order
-              </h2>
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-              This is the Order section of the website. This section takes the order of the customer. 
-
+              </h2> */}
+              
           </div>
         </section>
       </div>
